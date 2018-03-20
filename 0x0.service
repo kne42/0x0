@@ -1,0 +1,7 @@
+[Unit]
+Description=0x0
+
+[Service]
+User=kira
+Environment="PATH=/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/home/kira/.conda/bin"
+ExecStart=/home/kira/i.kne42.me/0x0/fhost.py runserver
